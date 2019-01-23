@@ -4,7 +4,7 @@ Displays my npx card
 
 ## Dependencies
 
-And has been customized with:
+Customized with:
 
 + [chalk](https://www.npmjs.com/package/chalk) : for the colors
 + [figlet](https://www.npmjs.com/package/figlet) : for the banner
