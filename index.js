@@ -40,7 +40,7 @@ console.log(boxen(card, frame));
 const cat1 = "  /\\___/\\" + '\n';
 const cat2 = "(  o o  )" + '\n';
 const cat3 = "/   *   \\ " + '\n';
-const cat4 = "\\__\\_/__/ meow!" + '\n';
+const cat4 = "\\__\\_/__/ " + "\033[5m meow!\033[0m" + '\n';
 const cat5 = "  /   \\ " + '\n';
 const cat6 = " / ___ \\ " + '\n';
 const cat7 = " \\/___\\/ " + '\n'; 
@@ -49,6 +49,7 @@ console.log(cat1, cat2, cat3, cat4, cat5, cat6, cat7);
 
 
 //http://www.ascii-fr.com/-Chats-.html
+//https://misc.flogisoft.com/bash/tip_colors_and_formatting (colors for text)
 //     /\___/\
 //    (  o o  )
 //    /   *   \
@@ -60,3 +61,4 @@ console.log(cat1, cat2, cat3, cat4, cat5, cat6, cat7);
 
 
 //'\n'
+
