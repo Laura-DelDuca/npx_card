@@ -33,7 +33,7 @@ const card = '\n' +
     chalk.white('      Wanna find me ?') + '\n' +
     chalk.green.bold('==> Github :') + ' ' + '    https://github.com/' + chalk.green.italic('Laura-DelDuca') + '\n' +
     chalk.yellow.bold('==> npm :') + ' ' + '       https://www.npmjs.com/' + chalk.yellow.italic('~lauradelduca1990') + '\n' +
-    chalk.red.bold('==> Linkedin :') + ' ' + '    https://www.linkedin.com/in/' + chalk.red.italic('laura-del-duca-887367172/') + '\n'
+    chalk.red.bold('==> Linkedin :') + ' ' + '  https://www.linkedin.com/in/' + chalk.red.italic('laura-del-duca-887367172/') + '\n'
 
 console.log(boxen(card, frame));
 
